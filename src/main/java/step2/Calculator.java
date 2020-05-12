@@ -26,7 +26,6 @@ public class Calculator {
             int nextNum = Integer.parseInt(nextValue);
 
             Operator operator = Operator.findOperator(operation);
-
             result = operator.operate(result, nextNum);
         }
 
